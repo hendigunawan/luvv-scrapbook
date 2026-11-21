@@ -174,12 +174,19 @@ export const photos = {
     "height": 4608,
     "alt": "Tangan kita saling menggenggam di bawah cahaya biru bianglala."
   },
-  "m030": {
-    "src": "assets/photos/m030.webp",
-    "thumb": "assets/photos/m030-small.webp",
+  "m069": {
+    "src": "assets/photos/m069.webp",
+    "thumb": "assets/photos/m069-small.webp",
     "width": 3456,
     "height": 4608,
-    "alt": "Bagian dalam kabin bianglala yang diterangi lampu biru."
+    "alt": "Dinda menyandarkan kepala di bahuku saat kita berfoto berdua di bianglala dengan cahaya biru."
+  },
+  "m070": {
+    "src": "assets/photos/m070.webp",
+    "thumb": "assets/photos/m070-small.webp",
+    "width": 3456,
+    "height": 4608,
+    "alt": "Aku dan Dinda tersenyum sambil memperlihatkan cincin di dalam kabin bianglala."
   },
   "m031": {
     "src": "assets/photos/m031.webp",
@@ -410,11 +417,12 @@ export const memories = [
   {
     "id": "chapter-04",
     "date": "2026-01-10",
-    "title": "Bianglala AEON",
-    "caption": "Di kabin yang serba biru itu, tanganku ketemu tanganmu. Dari semua yang bisa difoto di atas sana, aku senang yang satu ini tersimpan.",
+    "title": "Pertunangan di Bianglala AEON",
+    "caption": "Di Bianglala AEON malam itu, kita bertunangan. Dinda, genggaman tangan dan cincin kita menyimpan janji untuk terus melangkah bersama.",
     "photos": [
       "m029",
-      "m030"
+      "m069",
+      "m070"
     ],
     "paper": "film"
   },

@@ -1,5 +1,5 @@
 import { setupAlbumMusic } from './music.mjs?v=8f38ed12b9';
-import { photos, memories, extraPhotos } from './data.js?v=223203e2dc';
+import { photos, memories, extraPhotos } from './data.js?v=ee3f9e034b';
 import { calendarDaysSince, filterMemories } from './utils.mjs';
 
 const $ = selector => document.querySelector(selector);
