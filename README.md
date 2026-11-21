@@ -1,6 +1,6 @@
 # Luvv — Satu Tahun, Tetap Kamu
 
-Scrapbook anniversary pertama Hendi, 22 November 2026. Berisi 22 bab kenangan, 54 foto pilihan, galeri foto, surat, dan pemutar lagu Kita usahakan rumah itu oleh Sal Priadi.
+Scrapbook anniversary pertama Hendi, 22 November 2026. Berisi 20 bab kenangan, 41 foto pilihan yang mengutamakan kebersamaan Hendi dan Dinda, galeri foto, surat, dan pemutar lagu Kita usahakan rumah itu oleh Sal Priadi.
 
 ## Menjalankan di komputer
 

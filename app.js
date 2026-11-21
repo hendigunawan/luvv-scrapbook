@@ -1,5 +1,5 @@
 import { setupAlbumMusic } from './music.mjs?v=8f38ed12b9';
-import { photos, memories, extraPhotos } from './data.js?v=ee3f9e034b';
+import { photos, memories, extraPhotos } from './data.js?v=a26e39e91e';
 import { calendarDaysSince, filterMemories } from './utils.mjs';
 
 const $ = selector => document.querySelector(selector);
@@ -57,7 +57,7 @@ function showChapter(index, animate = false) {
   $('#all-photos').dataset.photo = chapter.photos[0];
   $('#all-photos').hidden = chapter.photos.length < 2;
   $('#all-photos span').textContent = 'Lihat ' + chapter.photos.length + ' foto';
-  $('#page-counter b').textContent = String(index + 1);
+  $('#page-counter').innerHTML = 'Halaman <b>' + (index + 1) + '</b> dari ' + memories.length;
   $('#prev-chapter').disabled = index === 0;
   const nextLabel = index === memories.length - 1 ? 'Ke surat' : 'Berikutnya';
   $('#next-chapter span').textContent = nextLabel;

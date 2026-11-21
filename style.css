@@ -283,13 +283,14 @@ svg { width: 1.2em; height: 1.2em; fill: none; stroke: currentColor; stroke-widt
   padding: 7px 7px 12px; transform: rotate(-3.5deg); touch-action: pan-y pinch-zoom; transition: transform .2s;
 }
 .mounted-photo { grid-column: 1; }
-.mounted-photo img, .second-print img { width: 100%; height: auto; object-fit: cover; object-position: 50% 49%; }
+.mounted-photo img, .second-print img { width: 100%; height: auto; object-fit: contain; object-position: 50% 49%; }
 .mounted-photo img { aspect-ratio: .82; max-height: 287px; }
 .mounted-photo[data-format="landscape"] img { aspect-ratio: 1.24; }
 .second-print { grid-column: 2; align-self: end; padding: 5px 5px 10px; margin-bottom: 4px; transform: rotate(7deg); }
 .second-print img { aspect-ratio: .88; max-height: 159px; }
 .second-print[data-format="landscape"] img { aspect-ratio: 1.25; }
 .second-print::before { left: 23%; width: 53%; height: 14px; top: -5px; transform: rotate(-9deg); }
+.photo-leaf:has(.second-print[hidden]) .mounted-photo { grid-column: 1 / -1; justify-self: center; max-width: 320px; }
 .mounted-photo:hover { transform: rotate(-2deg) translateY(-2px); }
 .second-print:hover { transform: rotate(5deg) translateY(-2px); }
 .spread[data-paper="film"] .mounted-photo, .spread[data-paper="film"] .second-print { transform: rotate(-1deg); padding-bottom: 6px; }

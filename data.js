@@ -6,13 +6,6 @@ export const photos = {
     "height": 1920,
     "alt": "Selfie kita di perjalanan ke Bogor, di samping pegangan logam."
   },
-  "m002": {
-    "src": "assets/photos/m002.webp",
-    "thumb": "assets/photos/m002-small.webp",
-    "width": 3456,
-    "height": 4608,
-    "alt": "Kamu menatap kamera dengan baju kotak-kotak kuning di Karawang."
-  },
   "m003": {
     "src": "assets/photos/m003.webp",
     "thumb": "assets/photos/m003-small.webp",
@@ -20,54 +13,12 @@ export const photos = {
     "height": 4608,
     "alt": "Bayangan kita berdua di cermin bundar studio."
   },
-  "m005": {
-    "src": "assets/photos/m005.webp",
-    "thumb": "assets/photos/m005-small.webp",
-    "width": 6240,
-    "height": 4160,
-    "alt": "Foto bersama di bawah pepohonan saat ke Bandung."
-  },
-  "m006": {
-    "src": "assets/photos/m006.webp",
-    "thumb": "assets/photos/m006-small.webp",
-    "width": 1024,
-    "height": 1536,
-    "alt": "Ilustrasi kita makan udang berdua di meja oranye."
-  },
-  "m007": {
-    "src": "assets/photos/m007.webp",
-    "thumb": "assets/photos/m007-small.webp",
-    "width": 3456,
-    "height": 4608,
-    "alt": "Kamu duduk di depan jendela dengan baju kotak-kotak kuning."
-  },
   "m011": {
     "src": "assets/photos/m011.webp",
     "thumb": "assets/photos/m011-small.webp",
     "width": 3456,
     "height": 4608,
     "alt": "Selfie saat kamu menyandarkan kepala di bahuku di Hachi & GO."
-  },
-  "m012": {
-    "src": "assets/photos/m012.webp",
-    "thumb": "assets/photos/m012-small.webp",
-    "width": 3456,
-    "height": 4608,
-    "alt": "Lampu gedung di malam hari, dilihat dari dalam mobil."
-  },
-  "m013": {
-    "src": "assets/photos/m013.webp",
-    "thumb": "assets/photos/m013-small.webp",
-    "width": 3456,
-    "height": 4608,
-    "alt": "Kamu berdiri di depan bukit dan hiasan balon warna-warni."
-  },
-  "m014": {
-    "src": "assets/photos/m014.webp",
-    "thumb": "assets/photos/m014-small.webp",
-    "width": 3456,
-    "height": 4608,
-    "alt": "Kamu di antara bunga, dengan bangunan kayu di belakang."
   },
   "m015": {
     "src": "assets/photos/m015.webp",
@@ -83,48 +34,6 @@ export const photos = {
     "height": 4608,
     "alt": "Kita duduk bersebelahan di Sambal Bakar dan melihat ke arah yang berbeda."
   },
-  "m017": {
-    "src": "assets/photos/m017.webp",
-    "thumb": "assets/photos/m017-small.webp",
-    "width": 3456,
-    "height": 4608,
-    "alt": "Jalanan Karawang dilihat melalui kaca depan mobil."
-  },
-  "m018": {
-    "src": "assets/photos/m018.webp",
-    "thumb": "assets/photos/m018-small.webp",
-    "width": 3456,
-    "height": 4608,
-    "alt": "Aku di meja makan dengan segelas minuman dan kotak kuning."
-  },
-  "m019": {
-    "src": "assets/photos/m019.webp",
-    "thumb": "assets/photos/m019-small.webp",
-    "width": 3456,
-    "height": 4608,
-    "alt": "Pengunjung PRJ berjalan di antara deretan stan pada sore hari."
-  },
-  "m020": {
-    "src": "assets/photos/m020.webp",
-    "thumb": "assets/photos/m020-small.webp",
-    "width": 3456,
-    "height": 4608,
-    "alt": "Papan warna-warni di PRJ menyala pada malam hari."
-  },
-  "m021": {
-    "src": "assets/photos/m021.webp",
-    "thumb": "assets/photos/m021-small.webp",
-    "width": 3456,
-    "height": 4608,
-    "alt": "Kamu duduk di sisi pagar, dekat seekor rusa."
-  },
-  "m022": {
-    "src": "assets/photos/m022.webp",
-    "thumb": "assets/photos/m022-small.webp",
-    "width": 3456,
-    "height": 4608,
-    "alt": "Kamu tersenyum di depan perbukitan dan langit biru di Bogor."
-  },
   "m023": {
     "src": "assets/photos/m023.webp",
     "thumb": "assets/photos/m023-small.webp",
@@ -138,34 +47,6 @@ export const photos = {
     "width": 3456,
     "height": 4608,
     "alt": "Kepala kita berdekatan saat berfoto di Blok M."
-  },
-  "m025": {
-    "src": "assets/photos/m025.webp",
-    "thumb": "assets/photos/m025-small.webp",
-    "width": 6912,
-    "height": 9216,
-    "alt": "Foto bersama di depan pelaminan yang dihiasi bunga."
-  },
-  "m026": {
-    "src": "assets/photos/m026.webp",
-    "thumb": "assets/photos/m026-small.webp",
-    "width": 3456,
-    "height": 4608,
-    "alt": "Kamu berpakaian putih di kursi tamu kondangan."
-  },
-  "m027": {
-    "src": "assets/photos/m027.webp",
-    "thumb": "assets/photos/m027-small.webp",
-    "width": 2304,
-    "height": 4424,
-    "alt": "Kamu duduk di bangku di bawah atap terbuka pada malam hari."
-  },
-  "m028": {
-    "src": "assets/photos/m028.webp",
-    "thumb": "assets/photos/m028-small.webp",
-    "width": 2304,
-    "height": 4096,
-    "alt": "Kamu bersandar di bangku AEON dengan lampu terang di belakang."
   },
   "m029": {
     "src": "assets/photos/m029.webp",
@@ -188,82 +69,12 @@ export const photos = {
     "height": 4608,
     "alt": "Aku dan Dinda tersenyum sambil memperlihatkan cincin di dalam kabin bianglala."
   },
-  "m031": {
-    "src": "assets/photos/m031.webp",
-    "thumb": "assets/photos/m031-small.webp",
-    "width": 3456,
-    "height": 4608,
-    "alt": "Pemandangan atap dan gedung Jakarta dari atas Monas."
-  },
-  "m032": {
-    "src": "assets/photos/m032.webp",
-    "thumb": "assets/photos/m032-small.webp",
-    "width": 3456,
-    "height": 4608,
-    "alt": "Kamu berdiri di pelataran pandang Monas, dekat pagar."
-  },
-  "m033": {
-    "src": "assets/photos/m033.webp",
-    "thumb": "assets/photos/m033-small.webp",
-    "width": 3456,
-    "height": 4608,
-    "alt": "Kamu berdiri dekat pagar di tepi air di PIK."
-  },
-  "m034": {
-    "src": "assets/photos/m034.webp",
-    "thumb": "assets/photos/m034-small.webp",
-    "width": 4608,
-    "height": 3456,
-    "alt": "Kotak-kotak makanan kita tersusun di atas meja."
-  },
-  "m035": {
-    "src": "assets/photos/m035.webp",
-    "thumb": "assets/photos/m035-small.webp",
-    "width": 3456,
-    "height": 4608,
-    "alt": "Kamu berdiri di bawah pohon dengan pakaian berwarna terang di Bandung."
-  },
-  "m037": {
-    "src": "assets/photos/m037.webp",
-    "thumb": "assets/photos/m037-small.webp",
-    "width": 3672,
-    "height": 6528,
-    "alt": "Kamu berdiri di rumput mengenakan atasan biru di Airish."
-  },
   "m038": {
     "src": "assets/photos/m038.webp",
     "thumb": "assets/photos/m038-small.webp",
     "width": 3672,
     "height": 6528,
     "alt": "Kita duduk berdampingan, kepala saling bersandar, dengan perbukitan hijau di belakang."
-  },
-  "m040": {
-    "src": "assets/photos/m040.webp",
-    "thumb": "assets/photos/m040-small.webp",
-    "width": 3672,
-    "height": 6528,
-    "alt": "Kamu duduk di atas batu dengan rumput hijau di belakang."
-  },
-  "m041": {
-    "src": "assets/photos/m041.webp",
-    "thumb": "assets/photos/m041-small.webp",
-    "width": 3456,
-    "height": 4608,
-    "alt": "Dua kursi di sudut ruangan, di samping jendela besar."
-  },
-  "m042": {
-    "src": "assets/photos/m042.webp",
-    "thumb": "assets/photos/m042-small.webp",
-    "width": 3456,
-    "height": 4608,
-    "alt": "Satu kantong berisi jajanan dan minuman dalam gelas."
-  },
-  "m043": {
-    "src": "assets/photos/m043.webp",
-    "thumb": "assets/photos/m043-small.webp",
-    "width": 3456,
-    "height": 4608,
-    "alt": "Kamu berfoto di depan bangunan restoran pada hari ulang tahun."
   },
   "m044": {
     "src": "assets/photos/m044.webp",
@@ -300,34 +111,6 @@ export const photos = {
     "height": 6000,
     "alt": "Potret studio saat aku menoleh ke arahmu di bangku."
   },
-  "m055": {
-    "src": "assets/photos/m055.webp",
-    "thumb": "assets/photos/m055-small.webp",
-    "width": 3456,
-    "height": 4608,
-    "alt": "Aku berdiri di Kota Tua dengan dua jendela bundar di belakang."
-  },
-  "m056": {
-    "src": "assets/photos/m056.webp",
-    "thumb": "assets/photos/m056-small.webp",
-    "width": 3456,
-    "height": 4608,
-    "alt": "Bayangan kita di kaca sebuah bangunan di Kota Tua."
-  },
-  "m057": {
-    "src": "assets/photos/m057.webp",
-    "thumb": "assets/photos/m057-small.webp",
-    "width": 1024,
-    "height": 1536,
-    "alt": "Ilustrasi kita dari belakang, berbaju biru dan saling menoleh."
-  },
-  "m060": {
-    "src": "assets/photos/m060.webp",
-    "thumb": "assets/photos/m060-small.webp",
-    "width": 3456,
-    "height": 4608,
-    "alt": "Beberapa mangkuk nasi dan lauk di atas nampan merah."
-  },
   "m062": {
     "src": "assets/photos/m062.webp",
     "thumb": "assets/photos/m062-small.webp",
@@ -342,20 +125,6 @@ export const photos = {
     "height": 4608,
     "alt": "Selfie dari bawah saat kepala kita berdekatan."
   },
-  "m064": {
-    "src": "assets/photos/m064.webp",
-    "thumb": "assets/photos/m064-small.webp",
-    "width": 3456,
-    "height": 4608,
-    "alt": "Kamu berdiri di jalur lebar dengan wahana Dufan di kejauhan."
-  },
-  "m065": {
-    "src": "assets/photos/m065.webp",
-    "thumb": "assets/photos/m065-small.webp",
-    "width": 3456,
-    "height": 4608,
-    "alt": "Selfie dengan kerudung ungu di bawah kanopi biru di Dufan."
-  },
   "m066": {
     "src": "assets/photos/m066.webp",
     "thumb": "assets/photos/m066-small.webp",
@@ -363,19 +132,159 @@ export const photos = {
     "height": 4608,
     "alt": "Kamu berjalan di bawah pepohonan Kebun Raya Bogor sambil membawa botol air."
   },
-  "m067": {
-    "src": "assets/photos/m067.webp",
-    "thumb": "assets/photos/m067-small.webp",
+  "m071": {
+    "src": "assets/photos/m071.webp",
+    "thumb": "assets/photos/m071-small.webp",
     "width": 3456,
     "height": 4608,
-    "alt": "Piring-piring oranye berisi udang dan sayur di meja makan."
+    "alt": "Kita berdiri berdampingan di dekat Monas, sama-sama mengenakan baju biru."
   },
-  "m068": {
-    "src": "assets/photos/m068.webp",
-    "thumb": "assets/photos/m068-small.webp",
+  "m072": {
+    "src": "assets/photos/m072.webp",
+    "thumb": "assets/photos/m072-small.webp",
     "width": 3456,
     "height": 4608,
-    "alt": "Cahaya matahari di balik awan terpantul di pasir basah, dengan ombak di kiri dan garis bukit di kejauhan."
+    "alt": "Selfie kita berdua saat berkunjung ke Monas."
+  },
+  "m073": {
+    "src": "assets/photos/m073.webp",
+    "thumb": "assets/photos/m073-small.webp",
+    "width": 1920,
+    "height": 1280,
+    "alt": "Kita tersenyum sambil duduk berdampingan di komidi putar Dufan."
+  },
+  "m074": {
+    "src": "assets/photos/m074.webp",
+    "thumb": "assets/photos/m074-small.webp",
+    "width": 1920,
+    "height": 1280,
+    "alt": "Foto berdua di atas kuda komidi putar Dufan."
+  },
+  "m075": {
+    "src": "assets/photos/m075.webp",
+    "thumb": "assets/photos/m075-small.webp",
+    "width": 3456,
+    "height": 4608,
+    "alt": "Selfie kita saat kondangan, aku berbaju batik dan Dinda mengenakan warna lembut."
+  },
+  "m076": {
+    "src": "assets/photos/m076.webp",
+    "thumb": "assets/photos/m076-small.webp",
+    "width": 3456,
+    "height": 4608,
+    "alt": "Kita mendekat ke kamera untuk selfie berdua di sela acara kondangan."
+  },
+  "m077": {
+    "src": "assets/photos/m077.webp",
+    "thumb": "assets/photos/m077-small.webp",
+    "width": 4000,
+    "height": 6000,
+    "alt": "Kita berfoto berdua memakai topi koboi dengan latar merah muda di PIK."
+  },
+  "m078": {
+    "src": "assets/photos/m078.webp",
+    "thumb": "assets/photos/m078-small.webp",
+    "width": 4000,
+    "height": 6000,
+    "alt": "Aku memeluk Dinda dari belakang saat kita memakai topi koboi di PIK."
+  },
+  "m079": {
+    "src": "assets/photos/m079.webp",
+    "thumb": "assets/photos/m079-small.webp",
+    "width": 3426,
+    "height": 5139,
+    "alt": "Kolase pose kita berdua memakai topi koboi di PIK."
+  },
+  "m080": {
+    "src": "assets/photos/m080.webp",
+    "thumb": "assets/photos/m080-small.webp",
+    "width": 3456,
+    "height": 4608,
+    "alt": "Dinda berdiri di antara pintu dan dinding bangunan lama di Kota Tua."
+  },
+  "m081": {
+    "src": "assets/photos/m081.webp",
+    "thumb": "assets/photos/m081-small.webp",
+    "width": 3456,
+    "height": 4608,
+    "alt": "Dinda berdiri di samping meja biliar saat jalan-jalan di Kota Tua."
+  },
+  "m082": {
+    "src": "assets/photos/m082.webp",
+    "thumb": "assets/photos/m082-small.webp",
+    "width": 3456,
+    "height": 4608,
+    "alt": "Potret Dinda memakai helm dan kacamata saat kita singgah dalam perjalanan."
+  },
+  "m083": {
+    "src": "assets/photos/m083.webp",
+    "thumb": "assets/photos/m083-small.webp",
+    "width": 3456,
+    "height": 4608,
+    "alt": "Kita selfie berdua di bawah cahaya siang saat kembali ke Bogor."
+  },
+  "m084": {
+    "src": "assets/photos/m084.webp",
+    "thumb": "assets/photos/m084-small.webp",
+    "width": 2304,
+    "height": 4096,
+    "alt": "Kita berfoto berdua di bangku AEON, dengan Dinda bersandar dekatku."
+  },
+  "m085": {
+    "src": "assets/photos/m085.webp",
+    "thumb": "assets/photos/m085-small.webp",
+    "width": 2304,
+    "height": 4096,
+    "alt": "Foto berdua pada malam hari di bangku AEON."
+  },
+  "m086": {
+    "src": "assets/photos/m086.webp",
+    "thumb": "assets/photos/m086-small.webp",
+    "width": 3456,
+    "height": 4608,
+    "alt": "Selfie iseng kita berdua di dalam mobil saat perjalanan ke Bandung."
+  },
+  "m087": {
+    "src": "assets/photos/m087.webp",
+    "thumb": "assets/photos/m087-small.webp",
+    "width": 3456,
+    "height": 4608,
+    "alt": "Dinda menyandarkan kepala dekat bahuku saat kita selfie di PRJ."
+  },
+  "m088": {
+    "src": "assets/photos/m088.webp",
+    "thumb": "assets/photos/m088-small.webp",
+    "width": 3456,
+    "height": 4608,
+    "alt": "Kepala kita berdekatan dalam selfie berdua di PRJ."
+  },
+  "m089": {
+    "src": "assets/photos/m089.webp",
+    "thumb": "assets/photos/m089-small.webp",
+    "width": 3456,
+    "height": 4608,
+    "alt": "Selfie kita berdua di bawah pepohonan The Great Asia Afrika."
+  },
+  "m090": {
+    "src": "assets/photos/m090.webp",
+    "thumb": "assets/photos/m090-small.webp",
+    "width": 3456,
+    "height": 4608,
+    "alt": "Foto kita berdua di depan cermin saat ke Karawang, Dinda berbaju kotak-kotak kuning."
+  },
+  "m091": {
+    "src": "assets/photos/m091.webp",
+    "thumb": "assets/photos/m091-small.webp",
+    "width": 3456,
+    "height": 4608,
+    "alt": "Kita berdiri berdampingan untuk foto cermin di Karawang."
+  },
+  "m092": {
+    "src": "assets/photos/m092.webp",
+    "thumb": "assets/photos/m092-small.webp",
+    "width": 3456,
+    "height": 4608,
+    "alt": "Kita tersenyum berdampingan untuk foto berdua di meja."
   }
 };
 
@@ -384,11 +293,10 @@ export const memories = [
     "id": "chapter-01",
     "date": "2025-11-22",
     "title": "Kebun Raya Bogor",
-    "caption": "Aku simpan tiga potong hari pertama kita di sini. Selfie di perjalanan, kamu di bawah pepohonan, dan sepiring udang di meja makan.",
+    "caption": "Selfie di perjalanan dan langkahmu di bawah pepohonan. Dua foto ini menyimpan awal cerita kita di Bogor.",
     "photos": [
       "m001",
-      "m066",
-      "m067"
+      "m066"
     ],
     "paper": "garden"
   },
@@ -396,10 +304,10 @@ export const memories = [
     "id": "chapter-02",
     "date": "2025-12-09",
     "title": "Monas",
-    "caption": "Dari atas Monas, Jakarta kelihatan kecil sekali. Aku sempat memotret pemandangannya, lalu memotret kamu di dekat pagar.",
+    "caption": "Yang paling ingin kusimpan dari Monas adalah kita berdua dalam satu bingkai. Ada pose rapi, ada selfie dekat-dekat yang lebih terasa seperti kita.",
     "photos": [
-      "m032",
-      "m031"
+      "m071",
+      "m072"
     ],
     "paper": "film"
   },
@@ -407,10 +315,10 @@ export const memories = [
     "id": "chapter-03",
     "date": "2025-12-24",
     "title": "Dufan",
-    "caption": "Satu foto menyimpan wahana di kejauhan. Satu lagi menyimpan wajahmu di bawah kanopi biru. Dua-duanya ikut pulang dari Dufan.",
+    "caption": "Kita duduk berdampingan di komidi putar, lalu sama-sama tersenyum ke kamera. Rasanya ingin memutar hari di Dufan ini sekali lagi.",
     "photos": [
-      "m065",
-      "m064"
+      "m073",
+      "m074"
     ],
     "paper": "film"
   },
@@ -420,9 +328,9 @@ export const memories = [
     "title": "Pertunangan di Bianglala AEON",
     "caption": "Di Bianglala AEON malam itu, kita bertunangan. Dinda, genggaman tangan dan cincin kita menyimpan janji untuk terus melangkah bersama.",
     "photos": [
-      "m029",
       "m069",
-      "m070"
+      "m070",
+      "m029"
     ],
     "paper": "film"
   },
@@ -430,10 +338,10 @@ export const memories = [
     "id": "chapter-05",
     "date": "2026-01-18",
     "title": "Kondangan berdua",
-    "caption": "Kamu pakai baju putih hari itu. Di antara foto ramai-ramai di pelaminan, ada satu potret kamu yang ingin kusimpan di sini.",
+    "caption": "Di sela acara, kita mendekat ke kamera dengan baju batik dan warna lembut yang kamu pakai. Dua selfie sederhana dari kondangan berdua.",
     "photos": [
-      "m026",
-      "m025"
+      "m075",
+      "m076"
     ],
     "paper": "garden"
   },
@@ -452,10 +360,11 @@ export const memories = [
     "id": "chapter-07",
     "date": "2026-02-08",
     "title": "Satu hari di PIK",
-    "caption": "Ada foto kamu di tepi air dan ada foto kotak makan kita. Dua gambar kecil itu cukup buat membawaku kembali ke hari di PIK.",
+    "caption": "Dari sekian banyak foto di PIK, yang kusimpan adalah kita berdua. Topi koboi, pelukan dari belakang, dan pose-pose kecil yang selalu bikin aku senyum.",
     "photos": [
-      "m033",
-      "m034"
+      "m077",
+      "m078",
+      "m079"
     ],
     "paper": "table"
   },
@@ -463,10 +372,10 @@ export const memories = [
     "id": "chapter-08",
     "date": "2026-02-15",
     "title": "Kota Tua",
-    "caption": "Aku kebagian latar dua jendela bundar. Saat kamera mengarah ke kaca, akhirnya kita berdua ikut masuk ke fotonya.",
+    "caption": "Dua potretmu di antara pintu bangunan lama dan di samping meja biliar. Begini aku ingin mengingat jalan-jalan kita di Kota Tua.",
     "photos": [
-      "m055",
-      "m056"
+      "m080",
+      "m081"
     ],
     "paper": "film"
   },
@@ -490,19 +399,17 @@ export const memories = [
     "title": "Merayakan hari spesial",
     "caption": "Dua aksesori kuning di kepala kita hampir bertemu di tengah foto. Setiap lihat yang ini, aku ingat betapa gemasnya kita hari itu.",
     "photos": [
-      "m044",
-      "m043"
+      "m044"
     ],
     "paper": "table"
   },
   {
     "id": "chapter-11",
     "date": "2026-04-12",
-    "title": "Jajan bareng",
-    "caption": "Satu kantong jajanan, minuman dingin, dan sudut dekat jendela. Aku suka kita sempat memotret hari sesederhana ini.",
+    "title": "Sore bersama",
+    "caption": "Helm dan kacamata masih terpasang waktu kamu menatap kamera. Aku suka punya potretmu dari sore yang sederhana ini.",
     "photos": [
-      "m042",
-      "m041"
+      "m082"
     ],
     "paper": "table"
   },
@@ -510,10 +417,9 @@ export const memories = [
     "id": "chapter-12",
     "date": "2026-04-26",
     "title": "Kembali ke Bogor",
-    "caption": "Kali ini Bogor menyimpan langit biru dan seekor rusa di balik pagar. Aku senang punya dua foto kamu dari hari yang sama.",
+    "caption": "Kita mendekat ke kamera di bawah cahaya siang Bogor. Foto berdua ini yang ingin kubawa pulang dari hari itu.",
     "photos": [
-      "m022",
-      "m021"
+      "m083"
     ],
     "paper": "garden"
   },
@@ -521,10 +427,10 @@ export const memories = [
     "id": "chapter-13",
     "date": "2026-05-13",
     "title": "AEON",
-    "caption": "Di bangku AEON malam itu, aku mengambil dua foto kamu. Aku suka keduanya, jadi kuberi tempat berdampingan di halaman ini.",
+    "caption": "Di bangku AEON malam itu, kita berhenti sebentar untuk berfoto berdua. Aku suka bagaimana kamu selalu menemukan tempat untuk bersandar dekat denganku.",
     "photos": [
-      "m028",
-      "m027"
+      "m084",
+      "m085"
     ],
     "paper": "film"
   },
@@ -534,9 +440,7 @@ export const memories = [
     "title": "Airish Coffee & Grill",
     "caption": "Aku pilih foto ini untuk sampul. Ada bukit di belakang kita, tapi yang paling kusuka adalah caramu menyandarkan kepala dekat kepalaku.",
     "photos": [
-      "m038",
-      "m037",
-      "m040"
+      "m038"
     ],
     "paper": "garden"
   },
@@ -544,10 +448,9 @@ export const memories = [
     "id": "chapter-15",
     "date": "2026-06-14",
     "title": "Bandung",
-    "caption": "Ada foto ramai-ramai, ada juga satu potret kamu di bawah pohon. Dua cara berbeda menyimpan hari yang sama di Bandung.",
+    "caption": "Perjalanan ke Bandung menyimpan selfie iseng kita di mobil. Bahkan ekspresi paling konyol pun ikut jadi kenangan yang ingin kusimpan.",
     "photos": [
-      "m035",
-      "m005"
+      "m086"
     ],
     "paper": "garden"
   },
@@ -555,10 +458,10 @@ export const memories = [
     "id": "chapter-16",
     "date": "2026-06-28",
     "title": "Di tengah ramainya PRJ",
-    "caption": "Di satu foto langitnya masih terang. Di foto satunya, lampu-lampu PRJ sudah menyala. Senang bisa melihat keduanya bersamamu.",
+    "caption": "Di tengah ramainya PRJ, kita mendekat supaya muat dalam satu bingkai. Foto dengan kepalamu bersandar dekat bahuku jadi bagian favoritku dari hari itu.",
     "photos": [
-      "m020",
-      "m019"
+      "m087",
+      "m088"
     ],
     "paper": "film"
   },
@@ -574,24 +477,12 @@ export const memories = [
     "paper": "table"
   },
   {
-    "id": "chapter-18",
-    "date": "2026-07-26",
-    "title": "Cerita dari Karawang",
-    "caption": "Yang tersimpan dari Karawang kali ini adalah jalan dari balik kaca mobil dan aku di meja makan. Potongan kecil perjalanan kita.",
-    "photos": [
-      "m018",
-      "m017"
-    ],
-    "paper": "table"
-  },
-  {
     "id": "chapter-19",
     "date": "2026-08-25",
     "title": "The Great Asia Afrika",
-    "caption": "Di The Great Asia Afrika ada bukit hijau dan hiasan warna-warni. Aku paling suka bagian ketika kamu masuk ke dalam bingkainya.",
+    "caption": "Di bawah pepohonan The Great Asia Afrika, kita sempat selfie berdua. Di antara banyak latar yang indah, aku tetap paling suka saat kamu ada dekat denganku.",
     "photos": [
-      "m013",
-      "m014"
+      "m089"
     ],
     "paper": "garden"
   },
@@ -599,34 +490,23 @@ export const memories = [
     "id": "chapter-20",
     "date": "2026-09-06",
     "title": "Hachi & GO",
-    "caption": "Ada satu foto kamu menyandarkan kepala di bahuku. Di foto berikutnya, lampu gedung sudah menyala dan langit mulai gelap.",
+    "caption": "Kamu menyandarkan kepala di bahuku waktu kita selfie di Hachi & GO. Yang paling kusuka dari foto ini adalah betapa dekatnya kita.",
     "photos": [
-      "m011",
-      "m012"
+      "m011"
     ],
     "paper": "table"
-  },
-  {
-    "id": "chapter-21",
-    "date": "2026-10-25",
-    "title": "Sampai ke pantai",
-    "caption": "Sore itu, cahaya sempat jatuh di pasir yang masih basah. Aku simpan pemandangannya di sini, seperti kartu pos kecil dari hari kita di pantai.",
-    "photos": [
-      "m068"
-    ],
-    "paper": "sea"
   },
   {
     "id": "chapter-22",
     "date": "2026-11-01",
     "title": "Karawang, lagi",
-    "caption": "Di Karawang kali ini, kamu pakai baju kotak-kotak kuning. Foto ini menutup album pertama kita. Sisanya, aku ingin kita isi pelan-pelan.",
+    "caption": "Kamu dengan baju kotak-kotak kuning, aku berdiri dekatmu di depan cermin. Dua foto berdua ini menutup album pertama kita. Sisanya, aku ingin kita isi pelan-pelan.",
     "photos": [
-      "m002",
-      "m007"
+      "m090",
+      "m091"
     ],
     "paper": "film"
   }
 ];
 
-export const extraPhotos = ["m006", "m057", "m060", "m062", "m063"];
+export const extraPhotos = ["m092","m063","m062"];
