@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f1e9">
+  <meta name="description" content="Scrapbook satu tahun kita. Dari Kebun Raya Bogor sampai Karawang, disusun Hendi untuk 22 November.">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <title>Luvv — Satu Tahun, Tetap Kamu</title>
+  <link rel="icon" href="assets/heart.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/editorial.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="assets/photos/m038.webp" as="image">
+  <link rel="stylesheet" href="style.css?v=218dd58a78">
+  <script type="module" src="app.js?v=dfc7b3dfaa"></script>
+</head>
+<body>
+  <a class="skip-link" href="#cerita">Langsung ke kenangan kita</a>
+  <svg class="icon-library" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.8 4.8a5.4 5.4 0 0 0-7.5 0L12 6.2l-1.3-1.4a5.3 5.3 0 0 0-7.5 7.5L12 21l8.8-8.7a5.3 5.3 0 0 0 0-7.5Z"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M3 4.5c3.5-.6 6 .1 9 2.1 3-2 5.5-2.7 9-2.1v14c-3.3-.5-6.2.2-9 2-2.8-1.8-5.7-2.5-9-2Zm9 2.1v13.9"/></symbol>
+    <symbol id="i-music" viewBox="0 0 24 24"><path d="M9 17V6l11-2v11M9 9l11-2"/><ellipse cx="6" cy="17.5" rx="3" ry="2.5"/><ellipse cx="17" cy="15.5" rx="3" ry="2.5"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24"><path d="M8 5v14m8-14v14" stroke-width="3"/></symbol>
+    <symbol id="i-index" viewBox="0 0 24 24"><path d="M7 4H4v16h15V4H7Zm0 0v16m3-11h6m-6 4h6"/></symbol>
+    <symbol id="i-enlarge" viewBox="0 0 24 24"><path d="M14 4h6v6m0-6-7 7M10 20H4v-6m0 6 7-7"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12m0-12L6 18"/></symbol>
+    <symbol id="i-waves" viewBox="0 0 80 26"><path d="M1 5q10-5 20 0t20 0t20 0t18 0M1 13q10-5 20 0t20 0t20 0t18 0M1 21q10-5 20 0t20 0t20 0t18 0"/></symbol>
+    <symbol id="i-prints" viewBox="0 0 24 24"><path d="m5 5 13-2 2 14M4 8h14v13H4zM6 17l3-4 3 3 2-2 2 3"/><circle cx="13.5" cy="11.5" r=".8"/></symbol>
+    <symbol id="i-up" viewBox="0 0 24 24"><path d="M12 20V4m-6 6 6-6 6 6"/></symbol>
+  </svg>
+  <header class="masthead">
+    <div class="layout masthead-inner">
+      <a class="wordmark" href="#sampul" aria-label="Luvv, kembali ke sampul">luvv<svg aria-hidden="true"><use href="#i-heart"/></svg></a>
+      <nav aria-label="Navigasi scrapbook">
+        <a href="#cerita">Kenangan</a>
+        <a href="#surat">Surat</a>
+      </nav>
+      <div class="music-control">
+        <button class="music" id="music-toggle" type="button" aria-controls="album-audio" aria-label="Putar lagu Kita usahakan rumah itu oleh Sal Priadi">
+          <svg class="music-off" aria-hidden="true"><use href="#i-music"/></svg><svg class="music-on" aria-hidden="true"><use href="#i-pause"/></svg>
+          <span id="music-label">Putar lagu</span>
+        </button>
+        <label for="music-toggle" class="music-tip" id="music-status" role="status"></label>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="layout cover-section" id="sampul" aria-labelledby="cover-title">
+      <div class="cover">
+        <div class="cover-furniture" aria-hidden="true"><i></i><i></i><i></i></div>
+        <div class="cover-text">
+          <p class="dedication">Untuk kamu,</p>
+          <h1 id="cover-title">Satu tahun,<br><em>tetap kamu.</em></h1>
+          <p class="cover-caption">Masih ingat kita makan udang di Bogor? Aku senang itu jadi halaman pertama dari cerita kita.</p>
+          <a id="open-album" class="cover-action" href="#cerita" aria-describedby="cover-track cover-gesture">
+            <svg aria-hidden="true"><use href="#i-book"/></svg>
+            <span>Buka album kita<small class="cover-gesture" id="cover-gesture" aria-hidden="true">Ketuk atau usap ke atas</small></span>
+            <svg aria-hidden="true"><use href="#i-arrow"/></svg>
+          </a>
+          <details class="song-credit" id="song-card">
+            <summary><svg aria-hidden="true"><use href="#i-music"/></svg><span id="cover-track"><cite>Kita usahakan rumah itu</cite> · <span class="song-artist">Sal Priadi</span></span><span class="sr-only">, pengaturan lagu</span></summary>
+            <div class="song-settings">
+              <audio id="album-audio" src="assets/music/kita-usahakan-rumah-itu.m4a" controls preload="metadata" aria-label="Pemutar Kita usahakan rumah itu oleh Sal Priadi"></audio>
+              <div class="song-services"><span>Dengarkan juga di</span>
+                <a class="ink-link" href="https://open.spotify.com/track/5Egm9N7FnzsThl1CFXB2mm" target="_blank" rel="noopener noreferrer">Spotify</a>
+                <a class="ink-link" href="https://www.youtube.com/watch?v=m-KsjaTEHwA" target="_blank" rel="noopener noreferrer">YouTube</a>
+              </div>
+            </div>
+          </details>
+        </div>
+        <div class="cover-pictures">
+          <span class="cover-swatch" aria-hidden="true"></span>
+          <button class="cover-print" type="button" data-photo="m038" aria-label="Perbesar foto kita di Airish, 31 Mei 2026">
+            <span class="tape" aria-hidden="true"></span>
+            <img src="assets/photos/m038.webp" alt="Kita duduk berdampingan di depan perbukitan di Airish." width="900" height="1600" fetchpriority="high">
+            <span class="print-caption">Airish, 31 Mei ’26 <span aria-hidden="true">♡</span></span>
+          </button>
+          <button class="studio-strip" type="button" data-photo="m051" aria-label="Lihat lima foto studio kita, 17 Februari 2026">
+            <img src="assets/photos/m051-small.webp" width="280" height="420" alt="">
+            <img src="assets/photos/m053-small.webp" width="280" height="420" alt="">
+            <span>17.02.26</span>
+          </button>
+          <span class="ephemera cover-flower" aria-hidden="true"></span>
+        </div>
+        <p class="cover-dates"><span>22.11.2025</span><span class="date-rule" aria-hidden="true"></span><span>22.11.2026</span></p>
+        <span class="cover-ribbon" aria-hidden="true"></span>
+      </div>
+    </section>
+
+    <section id="cerita" class="layout reader-section" aria-labelledby="reader-heading">
+      <div id="album" class="section-bar">
+        <h2 id="reader-heading">Kenangan <em>kita.</em></h2>
+        <button id="open-index" class="outline-button" type="button" aria-haspopup="dialog"><svg aria-hidden="true"><use href="#i-index"/></svg> Daftar isi</button>
+        <nav class="page-turns" aria-label="Ganti halaman">
+          <button type="button" class="turn turn-back" id="prev-chapter" aria-label="Halaman sebelumnya" disabled><svg aria-hidden="true"><use href="#i-arrow"/></svg><span>Sebelumnya</span></button>
+          <p id="page-counter">Halaman <b>1</b> dari 22</p>
+          <button type="button" class="turn turn-next" id="next-chapter" aria-label="Halaman berikutnya"><span>Berikutnya</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        </nav>
+      </div>
+      <article class="spread" id="spread" data-paper="garden" aria-labelledby="chapter-title" aria-describedby="reader-help">
+        <p class="sr-only" id="reader-help">Geser kolase atau gunakan tombol untuk membalik halaman. Ketuk salah satu cetakan untuk membuka foto utuh.</p>
+        <header class="chapter-header">
+          <p class="chapter-date"><span class="ink-rule" aria-hidden="true"></span><time id="chapter-date" datetime="2025-11-22">22 November 2025</time></p>
+          <h3 id="chapter-title" tabindex="-1">Kebun Raya Bogor</h3>
+        </header>
+        <div class="photo-leaf">
+          <button class="mounted-photo" id="featured" type="button" data-photo="m001" aria-label="Perbesar foto dari Kebun Raya Bogor">
+            <img id="featured-img" draggable="false" src="assets/photos/m001.webp" width="900" height="1600" alt="Selfie kita di perjalanan ke Bogor." loading="lazy">
+            <span class="enlarge-mark" aria-hidden="true"><svg><use href="#i-enlarge"/></svg></span>
+          </button>
+          <div class="page-keepsake" aria-hidden="true"><span class="ephemera"></span><svg class="post-waves"><use href="#i-waves"/></svg></div>
+          <button class="second-print" id="companion" type="button" data-photo="m066" aria-label="Perbesar foto kedua dari Kebun Raya Bogor">
+            <img id="companion-img" draggable="false" src="assets/photos/m066-small.webp" width="315" height="420" alt="Berjalan di bawah pepohonan Kebun Raya Bogor." loading="lazy">
+          </button>
+          <div class="postcard-back" id="postcard-message" role="region" aria-label="Pesan di balik kartu pos" tabindex="-1" hidden>
+            <span class="postcard-signature-mark" aria-hidden="true"><i class="ephemera"></i></span>
+            <p class="postcard-greeting">Sayang,</p>
+            <p>Kalau kita ke pantai lagi, aku mau foto kita berdua di tepi air. Nanti aku cetak dan selipkan di halaman ini.</p>
+            <p class="postcard-signature">Hendi <span aria-hidden="true">♡</span></p>
+          </div>
+        </div>
+        <div class="writing-leaf">
+          <div class="journal-note"><p id="chapter-caption" class="chapter-caption">Aku simpan tiga potong hari pertama kita di sini. Selfie di perjalanan, kamu di bawah pepohonan, dan sepiring udang di meja makan.</p></div>
+          <div class="chapter-actions">
+            <button id="flip-postcard" class="flip-postcard" type="button" aria-controls="postcard-message" aria-expanded="false" hidden><svg aria-hidden="true"><use href="#i-book"/></svg><span>Balik kartu pos</span></button>
+            <button class="ink-link all-photos" id="all-photos" type="button" data-photo="m001"><svg aria-hidden="true"><use href="#i-prints"/></svg><span>Lihat 3 foto</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+          </div>
+        </div>
+      </article>
+      <p class="sr-only" id="chapter-announcement" role="status"></p>
+      <noscript><p>Aktifkan JavaScript untuk membalik halaman, memperbesar foto, dan membuka surat.</p></noscript>
+    </section>
+
+    <section id="saku" class="pocket-section layout" aria-labelledby="pocket-heading">
+      <div class="pocket-text">
+        <h2 id="pocket-heading">Di saku <br><em>belakang.</em></h2>
+        <p>Ada ilustrasi kita lagi makan udang, foto bekal, juga selfie iseng. Yang begini pun bikin aku senyum sendiri.</p>
+        <button class="ink-link" type="button" data-photo="m006">Lihat 5 foto <svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+      </div>
+      <div class="pocket-art">
+        <button class="pocket-print pocket-left" type="button" data-photo="m006" aria-label="Lihat ilustrasi kita makan udang"><img src="assets/photos/m006-small.webp" width="280" height="420" loading="lazy" alt=""></button>
+        <button class="pocket-print pocket-middle" type="button" data-photo="m063" aria-label="Lihat selfie berdua"><img src="assets/photos/m063-small.webp" width="315" height="420" loading="lazy" alt=""></button>
+        <button class="pocket-print pocket-right" type="button" data-photo="m060" aria-label="Lihat foto makanan kita"><img src="assets/photos/m060-small.webp" width="315" height="420" loading="lazy" alt=""></button>
+        <div class="paper-pocket" aria-hidden="true"><span>titipan kenangan kecil</span></div>
+      </div>
+    </section>
+
+    <section class="letter-section" id="surat" aria-labelledby="letter-heading">
+      <div class="layout letter-layout">
+        <div class="letter-intro">
+          <h2 id="letter-heading">Ada surat <br><em>untukmu.</em></h2>
+          <p>Yang ini kutulis khusus untuk tanggal 22 November. Kamu boleh membacanya pelan-pelan.</p>
+          <p class="signature-note">Dengan sayang, Hendi</p>
+        </div>
+        <div class="envelope-wrap" id="envelope-wrap">
+          <button class="envelope" id="open-letter" type="button" aria-expanded="false" aria-controls="love-letter" aria-label="Buka surat Hendi">
+            <span class="envelope-lining" aria-hidden="true"></span><span class="letter-stamp" aria-hidden="true"><i class="ephemera"></i></span><span class="envelope-flap" aria-hidden="true"></span>
+            <span class="wax" aria-hidden="true"><svg><use href="#i-heart"/></svg></span>
+            <span class="envelope-label">Buka surat Hendi <svg aria-hidden="true"><use href="#i-arrow"/></svg></span>
+          </button>
+        </div>
+        <article class="love-letter" id="love-letter" tabindex="-1" aria-labelledby="greeting" hidden>
+          <time datetime="2026-11-22">22 November 2026</time>
+          <h3 id="greeting">Sayang,</h3>
+          <p>Setahun lalu, tanggal 22 November, cerita ini dimulai. Sekarang, melihat kembali foto-foto kita, aku sadar betapa banyak hal kecil yang ingin kusimpan.</p>
+          <p>Perjalanan ke Bogor, jalan-jalan ke Monas, makan bareng, sampai foto-foto yang kita simpan. Ke mana pun kita pergi, yang selalu membuatnya istimewa itu kamu.</p>
+          <p>Terima kasih sudah jadi bagian dari hari-hariku. Untuk waktumu, untuk tawa yang kita bagi, dan untuk setiap kenangan yang pelan-pelan terkumpul.</p>
+          <p>Selamat satu tahun untuk kita. Semoga masih banyak tempat yang bisa kita datangi dan halaman yang bisa kita isi bersama.</p>
+          <p>Aku sayang kamu.</p>
+          <p class="letter-signed">Hendi <span aria-hidden="true">♡</span></p>
+          <button id="close-letter" class="ink-link" type="button">Lipat kembali <svg aria-hidden="true"><use href="#i-up"/></svg></button>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer class="layout footer">
+    <p><span id="days-together"></span><span id="days-label">Sejak 22 November 2025</span></p>
+    <a href="#sampul">Kembali ke sampul <svg aria-hidden="true"><use href="#i-up"/></svg></a>
+  </footer>
+
+  <dialog id="contents-dialog" class="contents-dialog" aria-labelledby="contents-heading">
+    <div class="contents-shell">
+      <header class="dialog-header"><h2 id="contents-heading">Daftar <em>isi.</em></h2><button type="button" class="icon-button" id="close-index" aria-label="Tutup daftar isi"><svg aria-hidden="true"><use href="#i-close"/></svg></button></header>
+      <div class="index-filter"><label for="period">Periode</label>
+        <select id="period"><option value="all">Semua tanggal</option><option value="2025">Nov–Des 2025</option><option value="2026-q1">Jan–Mar 2026</option><option value="2026-q2">Apr–Jun 2026</option><option value="2026-q3">Jul–Sep 2026</option><option value="2026-q4">Okt–Nov 2026</option></select>
+      </div>
+      <ol id="index-list" class="index-list" aria-label="Pilih halaman"></ol>
+    </div>
+  </dialog>
+  <dialog id="photo-dialog" class="photo-dialog" aria-labelledby="photo-title">
+    <div class="photo-dialog-inner">
+      <header class="dialog-header"><div><p id="photo-date"></p><h2 id="photo-title">Foto kita</h2></div><button type="button" class="icon-button" id="close-photo" aria-label="Tutup foto"><svg aria-hidden="true"><use href="#i-close"/></svg></button></header>
+      <div class="photo-stage" id="photo-stage"><img id="large-photo" alt=""></div>
+      <div class="dialog-thumbs" id="dialog-thumbs" role="group" aria-label="Pilih foto"></div>
+      <footer class="photo-nav">
+        <button type="button" class="icon-button" id="prev-photo" aria-label="Foto sebelumnya"><svg class="flip" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        <p id="photo-counter" aria-live="polite"></p>
+        <button type="button" class="icon-button" id="next-photo" aria-label="Foto berikutnya"><svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+      </footer>
+    </div>
+  </dialog>
+</body>
+</html>
